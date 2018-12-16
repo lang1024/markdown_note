@@ -1,0 +1,3 @@
+ThreadLocal可以保证每个线程拥有一个变量的副本，实现了线程隔离,主要利用了每个Thread有个ThreadLocalMap,ThreadLocalMap保存了该线程拥有的所有ThreadLocal对象，并利用弱引用机制避免了Map无线增大导致内存泄露的问题。
+
+https://www.cnblogs.com/dolphin0520/p/3920407.html

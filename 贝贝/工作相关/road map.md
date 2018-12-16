@@ -1,0 +1,1 @@
+search-bar线上日志路径：/opt/tomcat7/logs/search_bar_service.log
